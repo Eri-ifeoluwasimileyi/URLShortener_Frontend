@@ -1,4 +1,5 @@
 document.getElementById('urlForm').addEventListener('submit', async (e) => {
+    
     e.preventDefault();
     const originalUrl = document.getElementById('originalUrl').value;
     const resultDiv = document.getElementById('result');

@@ -1,13 +1,13 @@
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-style: italic;
+    background-color: #fdfcff;
     margin: 0;
-    padding: 20px;
+    padding: 30px;
 }
 
 .container {
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
     background: #d8dcdf;
     padding: 20px;
@@ -19,6 +19,7 @@ body {
 h1 {
     text-align: center;
     color: #333;
+    
 }
 
 form {
@@ -34,8 +35,42 @@ input[type="url"] {
 
 }
 
+.features {
+    margin-top: 20px; 
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.dot.green {
+    background-color: green;
+}
+
+.dot.blue {
+    background-color: blue;
+}
+
+.dot.purple {
+    background-color: purple;
+}
+
 button {
-    padding: 10px 20px;
+    padding: 10px 15px;
     background-color: #007bff;
     color: white;
     border: none;
@@ -56,6 +91,8 @@ button:hover {
 .result-box {
     background: #f9f9f9;
     padding: 10px;
+    font-weight: bold;
+    font-size: x-large;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
     margin-top: 10px;
